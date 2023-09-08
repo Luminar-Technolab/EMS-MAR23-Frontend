@@ -1,0 +1,76 @@
+
+
+                REACT - JS Library (Front end development)
+            ----------------------------------------------------
+
+            -----------basic commands-----------
+
+            - to create project: npx create-react-app project-name
+            - to run app: npm start
+            - installing material ui: npm install @mui/material @emotion/react @emotion/styled
+            - to build project: npm run build
+            - to install react-bootstrap: npm install react-bootstrap bootstrap
+            - to get icons: npm i react-feather
+            - to enable routing: npm i react-router-dom
+            - to install axios: npm i axios
+            - to toast notification: npm i react-toastify
+            - to install Redux Toolkit: npm install @reduxjs/toolkit react-redux
+
+            -----------Basic Features-------------
+
+            - Resuable component based approach
+            - JSX : Javascript XML 
+            - Virtual DOM
+            - Fast
+            - Front end difference
+
+            concept                 Angular                     React                   Vue
+            ------------------------------------------------------------------------------------------
+            1. developement        Framework - Google          Library- Facebook       Framework - open source
+            2. Language            TypeScript                   Javascript              Javascript
+            3. DOM                 Real DOM                     Virtual DOM             Virtual DOM 
+            4. Data sharing        Two way binding              One way binding          Two way binding 
+
+            - Components: create a js file having name starts with capital letter
+                - Class based component / stateful component
+                - Functional based component / stateless component
+            - State: used to store values, we can share state to child component
+            - State transfer 
+                - parent to child
+                    - Props: used to share data between parent and child
+                - sibling Components
+                    - state lifting
+                - unrelated component
+                    - context API
+                        - createContext Hook
+                        - useContext Hook
+            - Conditional rendering
+            - React Hook: predefined functions and name starts with use keyword
+                - useState(): 
+                - useNavigate():
+                - useEffect():
+                - useDispatch()
+                - useSelector()
+            - Routing in react
+                - use of react-router-dom packagr
+                - Browser Router
+                - Route
+                - Routes
+                - Link
+            - API Call
+                - use axios library
+                - axios request configuaration
+            - Props Drilling -  leads to increase coupling between Components
+            - REDUX: State Management System
+                - Data flow of REDUX
+                    - store : to hold all state available for all Components
+                    - component : can select state from store but cannot update the state directly
+                    - actions : to update state component will dispatch an action where define the logic to update state
+                    - reducer : response (payload) from the action will be passed to reducer automatically, and reducer can directly update state in the store
+            - Redux Toolkit : to be the standard way to write Redux logic
+                - store :   use configureStore function, 
+                            provide store to react app by use of Provider selector from react-redux
+                - createSlice : use to combine both reducer and action
+            - Custom Hook: 
+                
+                
